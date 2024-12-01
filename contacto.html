@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Actividad 1 - Contacto</title>
+    <link rel="stylesheet" href="contacto.css">
+</head>
+<body>
+    <h2>Contacto</h2>
+    <p>Envíe cualquier consulta que nos quiera realizar</p>
+    <div id="formulario">
+        <form action="">
+            <div class="campoFormulario">
+                <label for="nombre">Nombre</label>
+                <input type="text" name="nombre" id="nombre" pattern="[a-zA-Z0-9]+" placeholder="Paco" required autofocus>
+            </div>
+            <div class="campoFormulario">
+                <label for="email">Email</label>
+                <input type="email" name="mail" id="mail" placeholder="ejemplo@dominio.com" required>
+            </div>
+            <div class="campoFormulario">
+                <label for="edad">Edad</label>
+                <input type="number" name="edad" id="edad" min="18" max="99" placeholder="2" required>
+            </div>
+            <div class="campoFormulario">
+                <label for="tlf">Teléfono</label>
+                <input type="number" name="tlf" id="tlf" min="000000000" max="999999999" placeholder="123456789" required>
+            </div>
+            <div class="campoFormulario">
+                <label for="consulta">Consulta</label>
+                <textarea name="consulta" id="consulta" placeholder="Mi duda a presentar es..." required></textarea>
+            </div>
+            <div class="campoFormulario">
+                <input type="checkbox" name="privacidadCookies" id="privacidadCookies">
+                <label for="privacidadCookies">Acepto los términos y cookies</label>
+            </div>
+            <div class="campoFormulario">
+                <button type="submit">Enviar</button>
+            </div>
+        </form>
+    </div>
+</body>
+</html>

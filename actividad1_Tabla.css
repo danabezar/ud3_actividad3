@@ -1,0 +1,97 @@
+#tabla {
+  display: table;
+  width: 100%;
+  margin: 0 auto;
+  table-layout: fixed;
+}
+
+#cabecera {
+  display: table-header-group;
+  margin: 10px;
+  color: white;
+  background-color: rgb(0, 0, 0);
+}
+
+#contenidoCabecera {
+  display: table;
+  width: 100%;
+}
+
+#imagenYTitulo {
+  display: table-cell;
+  padding: 10px;
+}
+
+#imagenYTitulo h1 {
+  margin: 10px;
+}
+
+#imagenYTitulo img {
+  height: 60px;
+  width: 60px;
+  margin: 10px;
+}
+
+#contenidoCabecera search {
+  display: table-cell;
+  text-align: right;
+  padding-right: 5px;
+}
+
+#menu {
+  margin: 0 auto;
+  background-color: rgb(131, 193, 235);
+}
+
+#menu li {
+  display:inline-block;
+  margin-right: 20px;
+  padding-top: 7px;
+  padding-bottom: 7px;
+}
+
+#principal {
+  display: table-cell;
+  width: 70%;
+  padding: 20px;
+  background-color: rgb(255, 232, 128);
+}
+
+.articuloNoFinal {
+  margin-bottom: 25px;
+}
+
+#aside {
+  display: table-cell;
+  width: 25%;
+  padding: 10px 20px 10px 20px;
+  background-color: #9af3f7;
+}
+
+#pie {
+  display: table-footer-group;
+  width: 95%;
+  padding: 2px;
+  color: white;
+  background-color: rgb(95, 95, 95);
+}
+
+#pie * {
+  margin-left: 20px;
+}
+
+a:link{
+  color: green;
+}
+
+a:visited {
+  color: red;
+}
+
+a:hover {
+  color: pink;
+}
+
+a:active {
+  color:blue;
+}

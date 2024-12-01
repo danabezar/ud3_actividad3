@@ -1,0 +1,21 @@
+body {
+    width: 100%;
+}
+
+#formulario {
+    justify-content: center;
+}
+
+.campoFormulario {
+    margin-bottom: 25px;
+    width: 50%;
+}
+
+.campoFormulario label, input, textarea { 
+    display: block;
+    width: 100%;
+}
+
+.campoFormulario label {
+    margin-bottom: 10px;
+}
